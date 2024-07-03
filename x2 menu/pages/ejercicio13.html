@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Tiny5&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="../css/ejercicios.css">
+</head>
+<body>
+    <header>
+        <div class="titulos">
+            <h1>Ejercicio 13</h1>
+        </div>
+        <nav>
+            <a href="/pages/index.html">Inicio</a>
+        </nav>
+        <div class="usuario">
+            Usuario: Administrador
+        </div>
+    </header>
+    <main>
+        <div class="sombras">
+            <h2>Presentar la serie de Fibonacci de n números</h2>
+            <input type="text" id="a" placeholder="Ingresa el primer número">
+            <button onclick="ejercicio13()">Generar Serie</button>
+            <p id="resp"></p>
+        </div>
+    </main>
+    <article class="formContainer">
+        <form action="">
+            <div>
+                <h2>Explicación del Código para la Serie de Fibonacci</h2>
+                <p>Esta función ejercicio #13, realiza lo siguiente:</p>
+                   <ol>
+                       <li><code>console.log(a)</code> y <code>console.log(b)</code>: Imprimen los dos primeros números de la serie.</li>
+                       <li><code>for (let i = 2; i &lt; n; i++)</code>: Itera desde 2 hasta <code>n - 1</code>.</li>
+                       <li><code>let c = a + b</code>: Calcula el siguiente número de la serie.</li>
+                       <li><code>a = b</code> y <code>b = c</code>: Actualizan los valores para la siguiente iteración.</li>
+                   </ol>
+            </div>
+        </form>
+    </article>
+    <footer>
+        Miembros: Wimper Zamora, Arianna Mosquera, Andres Toscano.
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>

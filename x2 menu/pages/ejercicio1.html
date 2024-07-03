@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Tiny5&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="../css/ejercicios.css">
+</head>
+<body>
+    <header>
+        <div class="titulos">
+            <h1>Ejercicio 1</h1>
+        </div>
+        <nav>
+            <a href="/pages/index.html">Inicio</a>
+        </nav>
+        <div class="usuario">
+            Usuario: Administrador
+        </div>
+    </header>
+    <main>
+        <div class="sombras">
+            <h2>Números pares e impares</h2>
+      
+                <input type="text" id="num" placeholder="Ingresa un número">
+                <button onclick="ejercicio1()">Verificar</button>
+            
+            <p id="resp"></p>
+        </div>
+    </main>
+    <article class="formContainer">
+        <form action="">
+            <div>
+                <h2>Explicación del Código</h2>
+            <p>Esta función <code>ejercicio </code> realiza lo siguiente:</p>
+            <ol>
+                <li>Obtiene el valor ingresado por el usuario.</li>
+                <li>Convierte el valor ingresado a un entero </li>
+                <li>Obtiene la referencia al elemento con el id donde se mostrará el resultado.</li>
+                <li>Verifica si el número es par comprobando si el residuo de la división entre el número y 2 es igual a 0.</li>
+                <li>Si el número es par, muestra el mensaje correspondiente en la consola y en el elemento.</li>
+                <li>Si el número es impar, muestra el mensaje correspondiente en la consola y en el elemento. </li>
+            </ol>
+            </div>
+        </form>
+    </article>
+    <footer>
+        Miembros: Wimper Zamora, Arianna Mosquera, Andres Toscano.
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>

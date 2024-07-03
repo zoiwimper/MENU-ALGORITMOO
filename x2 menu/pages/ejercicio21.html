@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Tiny5&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="../css/ejercicios.css">
+</head>
+<body>
+    <header>
+        <div class="titulos">
+            <h1>Ejercicio 21</h1>
+        </div>
+        <nav>
+            <a href="/pages/index.html">Inicio</a>
+        </nav>
+        <div class="usuario">
+            Usuario: Administrador
+        </div>
+    </header>
+    <main>
+        <div class="sombras">
+            <h2>Invertir una cadena</h2>
+            <input type="text" id="texto" placeholder="Ingresa una cadena de texto">
+            <button onclick="ejercicio21()">Invertir Cadena</button>
+            <p id="resp"></p>
+        </div>
+    </main>
+    <article class="formContainer">
+        <form action="">
+            <div>
+                <h2>Explicación del Código para Invertir una Cadena</h2>
+                <p>Ejercicio#21,invierte una cadena utilizando un bucle for para recorrer la cadena desde el último carácter hasta el primero:</p>
+                <ol>
+                    <li>Acumulación de Resultados: Se utiliza la variable <code>cadenaInvertida</code> para acumular los caracteres de la cadena en orden inverso.</li>
+                    <li>Recorrido Inverso: El bucle <code>for</code> <code>for (let i = cadena.length - 1; i >= 0; i--)</code> inicia desde el último carácter de la cadena (<code>cadena.length - 1</code>) y decrementa <code>i</code> hasta llegar a <code>0</code>. En cada iteración del bucle, se concatena (<code>+=</code>) el carácter actual de <code>cadena</code> a <code>cadenaInvertida</code>, logrando así construir la cadena invertida.</li>
+                </ol>
+            </div>
+        </form>
+    </article>
+    <footer>
+        Miembros: Wimper Zamora, Arianna Mosquera, Andres Toscano.
+    </footer>
+    <script src="../js/main.js"></script>
+</body>

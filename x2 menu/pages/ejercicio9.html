@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Tiny5&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="../css/ejercicios.css">
+</head>
+<body>
+    <header>
+        <div class="titulos">
+            <h1>Ejercicio 9</h1>
+        </div>
+        <nav>
+            <a href="/pages/index.html">Inicio</a>
+        </nav>
+        <div class="usuario">
+            Usuario: Administrador
+        </div>
+    </header>
+    <main>
+        <div class="sombras">
+            <h2>Verificar si un número es primo</h2>
+            <input type="text" id="num" placeholder="Ingresa un número">
+            <button onclick="ejercicio9()">Verificar</button>
+            <p id="resp"></p>
+        </div>
+    </main>
+    <article class="formContainer">
+        <form action="">
+            <div>
+                <h2>Explicación del Código</h2>
+                <p>Esta función ejercicio #9 ealiza lo siguiente:</p>
+                <ol>
+                    <li>Obtiene el valor ingresado por el usuario en el campo de texto con el id "num".</li>
+                    <li>Convierte el valor ingresado a un entero usando parseInt().</li>
+                    <li>Verifica si el número ingresado es válido y mayor que 1.</li>
+                    <li>Verifica si el número es primo comprobando si es divisible por cualquier número menor que él mismo (excluyendo 1).</li>
+                    <li>Muestra el resultado correspondiente.</li>
+                </ol>
+            </div>
+        </form>
+    </article>
+    <footer>
+        Miembros: Wimper Zamora, Arianna Mosquera, Andres Toscano.
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>

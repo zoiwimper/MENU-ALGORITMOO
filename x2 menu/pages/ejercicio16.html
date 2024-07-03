@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Tiny5&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="../css/ejercicios.css">
+</head>
+<body>
+    <header>
+        <div class="titulos">
+            <h1>Ejercicio 16</h1>
+        </div>
+        <nav>
+            <a href="/pages/index.html">Inicio</a>
+        </nav>
+        <div class="usuario">
+            Usuario: Administrador
+        </div>
+    </header>
+    <main>
+        <div class="sombras">
+            <h2>El mayor de los elementos de un arreglo</h2>
+            <input type="text" id="arreglo" placeholder="Ingresa números separados por ;">
+            <button onclick="ejercicio16()">Encontrar Mayor</button>
+            <p id="resp"></p>
+        </div>
+    </main>
+    <article class="formContainer">
+        <form action="">
+            <div>
+                <h2>Explicación del Código para Encontrar el Mayor</h2>
+                <p>Ejercicio#16,encuentra el mayor de los elementos de un arreglo siguiendo estos pasos:</p>
+                <ol>
+                    <li><code>let mayor = numeros[0]</code>: Supone que el primer elemento es el mayor.</li>
+                    <li><code>for (let i = 1; i &lt; numeros.length; i++)</code>: Itera desde el segundo elemento.</li>
+                    <li><code>if (numeros[i] &gt; mayor)</code>: Actualiza <code>mayor</code> si se encuentra un número más grande.</li>
+                </ol>
+            </div>
+        </form>
+    </article>
+    <footer>
+        Miembros: Wimper Zamora, Arianna Mosquera, Andres Toscano.
+    </footer>
+    <script src="../js/main.js"></script>
+</body>

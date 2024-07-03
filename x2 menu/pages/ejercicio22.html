@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Tiny5&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="../css/ejercicios.css">
+</head>
+<body>
+    <header>
+        <div class="titulos">
+            <h1>Ejercicio 22</h1>
+        </div>
+        <nav>
+            <a href="/pages/index.html">Inicio</a>
+        </nav>
+        <div class="usuario">
+            Usuario: Administrador
+        </div>
+    </header>
+    <main>
+        <div class="sombras">
+            <h2>Contar palabras en una cadena</h2>
+            <input type="text" id="texto" placeholder="Ingresa una cadena de texto">
+            <button onclick="ejercicio22()">Contar Palabras</button>
+            <p id="resp"></p>
+        </div>
+    </main>
+    <article class="formContainer">
+        <form action="">
+            <div>
+                <h2>Explicación del Código para Contar Palabras en una Cadena</h2>
+                <p>Ejercicio#22, cuenta las palabras en una cadena considerando que las palabras están separadas por espacios:</p>
+                <ol>
+                    <li>Separación por Espacios: Explicamos que en una cadena, las palabras están separadas por espacios en blanco (<code>" "</code>).</li>
+                    <li>Contador de Palabras: Se utiliza la variable <code>contadorPalabras</code> para contar las palabras encontradas. Inicialmente se asume que hay al menos una palabra (<code>contadorPalabras = 1</code>).</li>
+                    <li>Bucle <code>for</code> para Recorrer la Cadena: Se utiliza un bucle <code>for</code> para recorrer cada carácter de la cadena y verificar si es un espacio.</li>
+                    <li>Incrementar el Contador: Si el carácter actual es un espacio, se incrementa el contador de palabras (<code>contadorPalabras++</code>).</li>
+                </ol>
+            </div>
+        </form>
+    </article>
+    <footer>
+        Miembros: Wimper Zamora, Arianna Mosquera, Andres Toscano.
+    </footer>
+    <script src="../js/main.js"></script>
+</body>

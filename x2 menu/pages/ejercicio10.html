@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Tiny5&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="../css/ejercicios.css">
+</head>
+<body>
+    <header>
+        <div class="titulos">
+            <h1>Ejercicio 10</h1>
+        </div>
+        <nav>
+            <a href="/pages/index.html">Inicio</a>
+        </nav>
+        <div class="usuario">
+            Usuario: Administrador
+        </div>
+    </header>
+    <main>
+        <div class="sombras">
+            <h2>Invertir un número dividiendo para diez</h2>
+            <input type="text" id="num" placeholder="Ingresa un número">
+            <button onclick="ejercicio10()">Invertir</button>
+            <p id="resp"></p>
+        </div>
+    </main>
+    <article class="formContainer">
+        <form action="">
+            <div>
+                <h2>Explicación del Código para Invertir Números</h2>
+                <p>Esta función ejercicio #10, realiza lo siguiente:</p>
+                <ol>
+                    <li><code>while (numero !== 0)</code>: Itera mientras <code>numero</code> no sea 0.</li>
+                    <li><code>let digito = numero % 10</code>: Obtiene el último dígito del número.</li>
+                    <li><code>invertido = invertido * 10 + digito</code>: Agrega el dígito al número invertido.</li>
+                    <li><code>numero = Math.floor(numero / 10)</code>: Elimina el último dígito del número original.</li>
+                </ol>
+            </div>
+        </form>
+    </article>
+    <footer>
+        Miembros: Wimper Zamora, Arianna Mosquera, Andres Toscano.
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>

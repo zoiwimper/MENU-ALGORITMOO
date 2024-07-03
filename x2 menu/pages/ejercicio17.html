@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Tiny5&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="../css/ejercicios.css">
+</head>
+<body>
+    <header>
+        <div class="titulos">
+            <h1>Ejercicio 17</h1>
+        </div>
+        <nav>
+            <a href="/pages/index.html">Inicio</a>
+        </nav>
+        <div class="usuario">
+            Usuario: Administrador
+        </div>
+    </header>
+    <main>
+        <div class="sombras">
+            <h2>Presentar los nombres que no sean "Ana" de un arreglo</h2>
+            <input type="text" id="arreglo" placeholder="Ingresa nombres separados por coma">
+            <button onclick="ejercicio17()">Eliminar 'Ana'</button>
+            <p id="resp"></p>
+        </div>
+    </main>
+    <article class="formContainer">
+        <form action="">
+            <div>
+                <h2>Explicación del Código para Mostrar Nombres que no sean "Ana"</h2>
+                <p>Ejercicio#17, muestra los nombres que no sean "Ana" de un arreglo siguiendo estos pasos:</p>
+                <ol>
+                    <li><code>for (let i = 0; i &lt; nombres.length; i++)</code>: Itera a través del arreglo <code>nombres</code>.</li>
+                    <li><code>if (nombres[i] !== "Ana")</code>: Verifica si el nombre en la posición actual del arreglo no es "Ana".</li>
+                </ol>
+            </div>
+        </form>
+    </article>
+    <footer>
+        Miembros: Wimper Zamora, Arianna Mosquera, Andres Toscano.
+    </footer>
+    <script src="../js/main.js"></script>
+</body>

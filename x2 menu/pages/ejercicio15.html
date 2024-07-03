@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Tiny5&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="../css/ejercicios.css">
+</head>
+<body>
+    <header>
+        <div class="titulos">
+            <h1>Ejercicio 15</h1>
+        </div>
+        <nav>
+            <a href="/pages/index.html">Inicio</a>
+        </nav>
+        <div class="usuario">
+            Usuario: Administrador
+        </div>
+    </header>
+    <main>
+        <div class="sombras">
+            <h2> El promedio de los números de un arreglo</h2>
+            <input type="text" id="arreglo" placeholder="Ingresa números separados por ;">
+            <button onclick="ejercicio15()">Calcular Promedio</button>
+            <p id="resp"></p>
+        </div>
+    </main>
+    <article class="formContainer">
+        <form action="">
+            <div>
+                <h2>Explicación del Código para Calcular el Promedio</h2>
+                <p>ejercicio #15,calcula el promedio de los números de un arreglo siguiendo estos pasos:</p>
+                <ol>
+                    <li><code>for (let i = 0; i &lt; numeros.length; i++)</code>: Itera a través del arreglo <code>numeros</code>.</li>
+                    <li><code>suma += numeros[i]</code>: Suma cada número al total.</li>
+                    <li><code>let promedio = suma / numeros.length</code>: Calcula el promedio.</li>
+                </ol>
+            </div>
+        </form>
+    </article>
+    <footer>
+        Miembros: Wimper Zamora, Arianna Mosquera, Andres Toscano.
+    </footer>
+    <script src="../js/main.js"></script>
+</body>

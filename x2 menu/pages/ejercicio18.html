@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Tiny5&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="../css/ejercicios.css">
+</head>
+<body>
+    <header>
+        <div class="titulos">
+            <h1>Ejercicio 18</h1>
+        </div>
+        <nav>
+            <a href="/pages/index.html">Inicio</a>
+        </nav>
+        <div class="usuario">
+            Usuario: Administrador
+        </div>
+    </header>
+    <main>
+        <div class="sombras">
+            <h2>Los pares de un arreglo recorridos desde el último elemento al primero</h2>
+            <input type="text" id="arreglo" placeholder="Ingresa números separados por coma">
+            <button onclick="ejercicio18()">Mostrar Pares Inversos</button>
+            <p id="resp"></p>
+        </div>
+    </main>
+    <article class="formContainer">
+        <form action="">
+            <div>
+                <h2>Explicación del Código para Mostrar Números Pares</h2>
+                <p>Ejericio#18, muestra los números pares de un arreglo recorriéndolo desde el último elemento al primero siguiendo estos pasos:</p>
+                <ol>
+                    <li><code>for (let i = numeros.length - 1; i >= 0; i--)</code>: Itera desde el último elemento al primero del arreglo <code>numeros</code>.</li>
+                    <li><code>if (numeros[i] % 2 === 0)</code>: Verifica si el número en la posición actual del arreglo es par.</li>
+                </ol>
+            </div>
+        </form>
+    </article>
+    <footer>
+        Miembros: Wimper Zamora, Arianna Mosquera, Andres Toscano.
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
